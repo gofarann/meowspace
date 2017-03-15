@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+header {
+  background-color: gray;
+  height: 150px
+}
+header h2,nav {
+  display: inline-block;
+}
+
+header a[href*="index"] {
+  position: absolute;
+  left:
+
+}
