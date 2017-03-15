@@ -1,15 +1,40 @@
 @import url('https://fonts.googleapis.com/css?family=Lobster');
 
+/** {
+  border: black 1px solid;
+}*/
+
 header {
   background-color: gray;
-  height: 150px
+  height: 100px
+
 }
+
 header h2,nav {
   display: inline-block;
 }
 
 header a[href*="index"] {
-  position: absolute;
-  left:
+  position: absolute;;
+  left: 150px;
+  top: 50px;
 
+}
+
+nav li {
+  list-style-type: none;
+}
+
+nav a[href="#login"] {
+  display: inline-block;
+  position: absolute;
+  right: 250px;
+  top: 50px;
+}
+
+nav a[href="#signup"] {
+  display: inline-block;
+  position: absolute;
+  right: 300px;
+  top: 50px;
 }
